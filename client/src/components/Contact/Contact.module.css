@@ -1,0 +1,188 @@
+/* CSS CORREGIDO A REM!!!!*/
+
+@import url(../../index.css);
+
+.containerContact{
+    display:flex;
+    background-color: var(--color2);   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 39rem;
+    height: auto;
+    margin-top: 0.06rem;
+    box-shadow:  0.3rem 0.3rem 0.9rem rgba(0, 0, 0, 0.32);
+    border-radius: 0.6rem;
+    border: solid 0.06rem rgba(255, 255, 255, 0.3);
+}
+.form{
+    margin: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.nameContact{
+    /* margin-top: 30px; */
+    background-color: #dbdada;
+    width: 140%;
+    display: flex;
+    justify-content: center;
+    color: var(--color2);
+    border-radius: 0.3rem;
+    height: 1.9rem;
+    font-size: 0.9rem;
+    margin-left: -2.5rem;
+    margin-right: 2.5rem;
+
+}
+.nameContact::placeholder{
+    padding-left: 0.6rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.errors{
+    background-color: #dbdada;
+    border-color: red;
+    width: 140%;
+    display: flex;
+    justify-content: center;
+    /* color: red; */
+    border-radius: 0.3rem;
+    height: 1.9rem;
+    font-size: 0.9rem;
+    margin-left: -2.5rem;
+    margin-right: 2.5rem;
+}
+
+.errors::placeholder{
+    padding-left: 0.6rem;
+    font-size: 0.9rem;
+    text-align: center;
+    color: red;
+    
+}
+
+
+
+.mailContact{
+    background-color: #dbdada;
+    width: 140%;
+    display: flex;
+    justify-content: center;
+    color: var(--color2);
+    border-radius: 0.3rem;
+    height: 1.9rem;
+    font-size: 0.9rem;
+    margin-left: -2.5rem;
+    margin-right: 2.5rem;
+
+
+}
+.mailContact::placeholder{
+    padding-left: 0.3rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.phoneContact{
+    background-color: #dbdada;
+    width: 140%;
+    display: flex;
+    justify-content: center;
+    color: var(--color2);
+    border-radius: 0.3rem;
+    height: 1.9rem;
+    font-size: 0.9rem;
+    margin-left: -2.5rem;
+    margin-right: 2.5rem;
+
+}
+.phoneContact::placeholder{
+    padding-left: 0.6rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.reasonContact{
+    font-family: var(--fontpage);
+    overflow: scroll;
+    resize: none;
+    font-size: 0.9rem;
+    color: var(--color2);
+    margin-bottom: 1.8rem; 
+    background-color: #dbdada;
+    width: 100%;
+    height:100%;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+}
+.reasonContact::placeholder{
+    padding-left: 0.6rem;
+    font-size: 0.9rem;
+}
+
+
+.errorMessage{
+    font-family: var(--fontpage);
+    overflow: scroll;
+    resize: none;
+    font-size: 0.9rem;
+    margin-bottom: 1.8rem; 
+    background-color: #dbdada;
+    width: 100%;
+    height:100%;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+    border-color: red;
+
+}
+
+.errorMessage::placeholder{
+    padding-left: 0.6rem;
+    font-size: 0.9rem;
+    text-align: center;
+    color: red;
+    font-weight:500
+    
+}
+.containerbtnsend{
+    display: flex;
+    justify-content: center;
+}
+.btnSend{
+   background-color: #FF4C29;
+   width: 9.5rem;
+   height: 2.8rem;
+   text-align: center;
+   border: 0;
+   font-size: 0.9rem;
+   cursor: pointer;
+   font-weight: bold;
+   color: #dbdada;
+   transition: 0.3s;
+   margin-bottom: 0.3rem;
+}
+
+.btnSend:hover{
+    background-color: #ff3f18;
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+}
+.btnSend:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+   }
+
+.btnSend:disabled{
+    background-color: grey;
+}
+.errores{
+    color:#ff3f18;
+    font-weight: 400;
+    font-size: medium;
+    padding: -0.7rem;
+   
+}

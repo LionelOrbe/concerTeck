@@ -1,0 +1,43 @@
+/* CSS CORREGIDO A REM!!!!*/
+
+@import url(../../index.css);
+
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(0.3rem); 
+    border: solid 0.08rem rgba(255, 255, 255, 0.3);
+    box-shadow:  0.3rem 0.3rem 0.8rem rgba(0, 0, 0, 0.32);
+    width: 23vw;
+    height: 19vw;
+    color: var(--color4);
+    border-radius: 2vw 2% 2vw 2%;
+    padding: 0%;
+    margin: 1%;
+    margin-top: 5%;
+    margin-right: 1%;
+}
+.container:hover{
+    box-shadow:  0px 0px 1.5rem rgba(255, 0, 0, 0.41);
+    transform: scale(1);
+    transition: 0.2s;
+}
+.image{
+  margin-top: 2%;
+    width: 100%;
+    height: 10vw;
+    transform: skewY(-3deg);
+    box-shadow:  0.3rem 0.3rem 0.9rem rgba(0, 0, 0, 0.32);
+       
+}
+.name{
+    font-size: 1.6vw;
+    margin-top: 2%;
+}
+.info{
+   
+    font-size: 1.3vw;
+}
